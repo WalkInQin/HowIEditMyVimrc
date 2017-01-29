@@ -57,12 +57,6 @@ if has('syntax') && has('eval')
   packadd matchit
 endif
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" 显示相关  
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 set nu              " 显示行号  
 set go=             " 不要图形按钮
 autocmd InsertLeave * se nocul  " 用浅色高亮当前行
@@ -86,4 +80,6 @@ set termencoding=utf-8
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936
 set fileencoding=utf-8
-  
+
+set nobackup
+set noswapfile
