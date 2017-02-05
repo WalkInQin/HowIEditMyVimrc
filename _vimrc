@@ -85,6 +85,8 @@ set fileencoding=utf-8
 
 set nobackup
 set noswapfile
+set noundofile
+"undofir=~/.undofir
 
 set splitbelow
 set splitright
